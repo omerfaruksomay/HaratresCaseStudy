@@ -23,6 +23,10 @@ public class CartItem {
         return discountedUnitPrice;
     }
 
+    public double getUnitPrice() {
+        return product.getPrice();
+    }
+
     public void setDiscountedUnitPrice(double discountedUnitPrice) {
         this.discountedUnitPrice = discountedUnitPrice;
     }
